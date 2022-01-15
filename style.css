@@ -90,3 +90,52 @@ body{
     margin-top: 80px;
     border-radius: 9px;
 }
+
+/* Responsive */
+
+/*  Small Devices, Phones */ 
+
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 480px)   {
+    .navbar{
+        color: blue;
+        text-align: center;
+        padding: 0 7px 8px;
+    }
+    .container{
+        display: block;
+        padding: 10px;
+        box-sizing: border-box;
+        padding: 0 7px 8px;
+    }
+    .container p{
+        width: 100%;
+        padding: 0 7px 8px;
+        
+    }
+    .picture{
+        width: 100%;
+        height: auto;
+        padding: 0 7px 8px;
+    }
+    .heading{
+        color: blue;
+        text-align: center;
+        padding: 0 7px 8px;
+    }
+    .container-2{
+        display: block;
+        padding: 10px;
+        box-sizing: border-box;
+        padding: 0 7px 8px;
+    }
+    .Footer{
+       width: 100%;
+       height: auto;
+       padding: 10px;
+       box-sizing: border-box;
+       padding: 0 7px 8px;
+    }
+}
+   
