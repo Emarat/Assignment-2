@@ -81,7 +81,7 @@ body{
 /* footer section */
 .Footer{
     
-    width: 1059px;
+    width: 1250px;
     height: 150px;
     bottom:0;
     text-align:center;
@@ -90,6 +90,50 @@ body{
     margin-top: 80px;
     border-radius: 9px;
 }
+
+
+/* newsletter styles */
+form {
+    margin-top: 47px;
+    border: 2px solid #f1f1f1;
+  }
+form h2{
+    text-align: center;
+  }
+  
+  /* padding and  background color for containers */
+  .news-letter {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  /* Styles for input elements and submit button */
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Add margins to the checkbox */
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+
 
 /* Responsive */
 
@@ -170,7 +214,7 @@ and (max-device-width : 480px)   {
         padding: 0 7px 8px;
     }
     .Footer{
-       width: 100%;
+        width: 100%;
        height: auto;
        padding: 10px;
        box-sizing: border-box;
