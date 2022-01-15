@@ -1,8 +1,10 @@
-
 body{
     /* google font  */
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding-left: 66px;
 }
+
 .btn{
     /* button setting */
     width: 196px;
@@ -13,7 +15,8 @@ body{
 .picture{
     /* image settings */
     width: 440px;
-    height: 414px
+    height: 414px;
+    padding-right: 82px;
 }
 /* For Bonus part  */
 .effect:hover{
@@ -73,7 +76,7 @@ body{
 .See-more {
     text-decoration: none;
     position: absolute;
-    margin-left: 950px;
+    margin-left: 979px;
     color: #E02C6D;
     
 }
@@ -81,7 +84,7 @@ body{
 /* footer section */
 .Footer{
     
-    width: 1320px;
+    width: 1085px;
     height: 150px;
     bottom:0;
     text-align:center;
@@ -95,7 +98,8 @@ body{
 /* newsletter styles */
 form {
     margin-top: 47px;
-    border: 2px solid #f1f1f1;
+    border:  solid #f1f1f1;
+    padding-right: 276px;
   }
 form h2{
     text-align: center;
@@ -149,15 +153,12 @@ and (max-device-width : 480px)   {
     }
     .container{
         display: block;
-        padding: 10px;
+        padding: 25px;
         box-sizing: border-box;
-        padding: 0 7px 8px;
-    }
-    .container p{
         width: 100%;
-        padding: 0 7px 8px;
-        
+        text-align: center;
     }
+
     .picture{
         width: 100%;
         height: auto;
@@ -170,16 +171,23 @@ and (max-device-width : 480px)   {
     }
     .container-2{
         display: block;
-        padding: 10px;
+        padding: 25px;
         box-sizing: border-box;
-        padding: 0 7px 8px;
+    }
+    .See-more{
+        width: 100%;
+        margin: auto;
+        padding: 0 25px;
+    }
+    form{
+        padding: 25px;
     }
     .Footer{
        width: 100%;
        height: auto;
-       padding: 10px;
-       box-sizing: border-box;
        padding: 0 7px 8px;
+       box-sizing: border-box;
+       
     }
 }
 /* For Ipad/tablet */
@@ -189,32 +197,39 @@ and (max-device-width : 480px)   {
     }
     .container{
         display: block;
-        padding: 10px;
+        /* padding: 10px; */
         box-sizing: border-box;
         padding: 0 7px 8px;
+        width: 80%;
     }
-    .container p{
-        width: 100%;
-        padding: 0 7px 8px;
-        
-    }
+  
     .picture{
-        width: 100%;
+        width: 80%;
         height: auto;
         padding: 0 7px 8px;
     }
     .heading{
+        
         padding: 0 7px 8px;
     }
     .container-2{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        padding: 10px;
+        grid-column-gap: 25px;
         box-sizing: border-box;
+        width: 80%;
+        
+    }
+    .See-more{
+        width: 80%;
+        margin: auto;
         padding: 0 7px 8px;
     }
+    form{
+        width: 80%;
+    }
     .Footer{
-        width: 100%;
+        width: 80%;
        height: auto;
        padding: 10px;
        box-sizing: border-box;
