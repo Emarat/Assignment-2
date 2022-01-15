@@ -138,4 +138,42 @@ and (max-device-width : 480px)   {
        padding: 0 7px 8px;
     }
 }
-   
+/* For Ipad/tablet */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .navbar{
+        padding: 0 7px 8px;
+    }
+    .container{
+        display: block;
+        padding: 10px;
+        box-sizing: border-box;
+        padding: 0 7px 8px;
+    }
+    .container p{
+        width: 100%;
+        padding: 0 7px 8px;
+        
+    }
+    .picture{
+        width: 100%;
+        height: auto;
+        padding: 0 7px 8px;
+    }
+    .heading{
+        padding: 0 7px 8px;
+    }
+    .container-2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+        box-sizing: border-box;
+        padding: 0 7px 8px;
+    }
+    .Footer{
+       width: 100%;
+       height: auto;
+       padding: 10px;
+       box-sizing: border-box;
+       padding: 0 7px 8px;
+    }
+    }
