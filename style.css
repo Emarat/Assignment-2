@@ -76,7 +76,7 @@ body{
 .See-more {
     text-decoration: none;
     position: absolute;
-    margin-left: 979px;
+    margin-left: 1147px;
     color: #E02C6D;
     
 }
@@ -84,7 +84,7 @@ body{
 /* footer section */
 .Footer{
     
-    width: 1085px;
+    width: 1261px;
     height: 150px;
     bottom:0;
     text-align:center;
@@ -99,7 +99,7 @@ body{
 form {
     margin-top: 47px;
     border:  solid #f1f1f1;
-    padding-right: 276px;
+    padding-right: 100px;
   }
 form h2{
     text-align: center;
